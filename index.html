@@ -306,7 +306,7 @@
 
         .grid-3 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
             gap: 2rem;
         }
 
@@ -518,7 +518,66 @@
             height: 100%;
         }
 
+        .hamburger {
+            display: none;
+            font-size: 1.5rem;
+            color: var(--fg);
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        footer {
+            padding: 2rem 5%;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg);
+        }
+
         @media (max-width: 900px) {
+
+            h1,
+            h1.stagger-text {
+                font-size: clamp(2.5rem, 12vw, 4rem) !important;
+            }
+
+            h2 {
+                font-size: clamp(2rem, 8vw, 3rem);
+                margin-bottom: 2rem;
+            }
+
+            .hero-desc {
+                font-size: 1rem !important;
+                padding-left: 1rem !important;
+                border-left-width: 2px !important;
+            }
+
+            .btn {
+                padding: 0.8rem 1.5rem !important;
+                font-size: 1rem !important;
+            }
+
+            .nav-links a {
+                font-size: 1.5rem !important;
+            }
+
+            .project-card {
+                padding: 1.5rem !important;
+            }
+
+            .skill-box {
+                padding: 1rem !important;
+            }
+
+            .marquee-content {
+                font-size: 2rem !important;
+            }
+
+            .contact-box {
+                padding: 1.5rem !important;
+            }
+
             .hero-grid {
                 grid-template-columns: 1fr;
             }
@@ -533,8 +592,47 @@
                 gap: 1rem;
             }
 
+            .grid-2,
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            section {
+                padding: 4rem 0;
+            }
+
+            .hero {
+                padding-top: 6rem;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
             .nav-links {
-                display: none;
+                position: fixed;
+                top: 0;
+                right: -100%;
+                width: 70vw;
+                height: 100vh;
+                background: var(--bg);
+                border-left: 1px solid var(--border);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2rem;
+                transition: right 0.4s ease;
+                z-index: 1000;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            footer {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
             }
         }
 
@@ -553,7 +651,10 @@
     <!-- Navigation -->
     <nav>
         <a href="#home" class="logo">CH<span>.</span></a>
-        <ul class="nav-links">
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
             <li><a href="#about">ABOUT & SKILLS</a></li>
             <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#experience">LEADERSHIP & EXPERIENCE</a></li>
@@ -569,7 +670,8 @@
                     <p class="mono-text" style="margin-bottom: 1rem; color: var(--accent);">[ DATA SCIENCE UNDERGRADUATE
                         ]</p>
                     <h1 class="stagger-text">CHATHURA</h1>
-                    <h1 class="stagger-text" style="color: var(--border); -webkit-text-stroke: 1px var(--fg); font-size: clamp(2.2rem, 5vw, 5.8rem); letter-spacing: -0.03em;">
+                    <h1 class="stagger-text"
+                        style="color: var(--border); -webkit-text-stroke: 1px var(--fg); font-size: clamp(2.2rem, 5vw, 5.8rem); letter-spacing: -0.03em;">
                         HETTIARACHCHI</h1>
 
                     <div class="hero-desc reveal">
@@ -578,7 +680,7 @@
                         hands-on experience in developing end-to-end data science projects.
                     </div>
 
-                    <div style="margin-top: 3rem; display: flex; gap: 1rem;" class="reveal">
+                    <div style="margin-top: 3rem; display: flex; gap: 1rem; flex-wrap: wrap;" class="reveal">
                         <a href="#projects" class="btn">View Work</a>
                         <a href="cv.pdf" download class="btn btn-outline">Resume</a>
                     </div>
@@ -735,8 +837,8 @@
                     <div class="project-links">
                         <a href="https://github.com/CPHettiarachchi/ai-career-agent" target="_blank" title="GitHub"><i
                                 class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/posts/chathura-hettiarachchi-aa30452a6_ai-datascience-machinelearning-share-7454981688008499200-t0vt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmwS9sBttfOqXW4VKVpdR_7vRWIpVfNWww" target="_blank"
-                            title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/posts/chathura-hettiarachchi-aa30452a6_ai-datascience-machinelearning-share-7454981688008499200-t0vt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEmwS9sBttfOqXW4VKVpdR_7vRWIpVfNWww"
+                            target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
                     </div>
                     <div class="project-content">
                         <div class="mono-text" style="margin-bottom: 1rem;">[ 01 ]</div>
@@ -1153,7 +1255,8 @@
 
                 <div>
                     <h3 style="color: var(--accent); margin-bottom: 2rem;">// INIT CONTACT</h3>
-                    <div style="border: 1px solid var(--border); padding: 3rem; position: relative;">
+                    <div class="contact-box"
+                        style="border: 1px solid var(--border); padding: 3rem; position: relative;">
                         <h3 style="font-size: 2rem; margin-bottom: 1rem;">Let's Build.</h3>
                         <p style="color: #888; margin-bottom: 2rem;">Available for AI/ML opportunities and
                             collaborations.</p>
@@ -1209,9 +1312,9 @@
     </section>
 
     <!-- Footer -->
-    <footer
-        style="padding: 2rem 5%; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; background: var(--bg);">
-        <div class="mono-text">© 2026 Chathura Hettiarachchi. All rights reserved. Content, design, and code are protected under applicable copyright laws.</div>
+    <footer>
+        <div class="mono-text">© 2026 Chathura Hettiarachchi. All rights reserved. Content, design, and code are
+            protected under applicable copyright laws.</div>
         <div class="mono-text" style="color: var(--accent);">SYSTEM NORMAL</div>
     </footer>
 
@@ -1244,6 +1347,32 @@
     </script>
 
     <script>
+        // 0. Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
         // 1. Text Stagger Animation Preparation
         const staggerTexts = document.querySelectorAll('.stagger-text');
         staggerTexts.forEach(text => {
