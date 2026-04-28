@@ -1,0 +1,149 @@
+Chathura Hettiarachchi
+Kandy, Central Province, Sri Lanka — dumchak21@gmail.com — +94 71 158 1770
+linkedin.com/in/chathura-hettiarachchi-aa30452a6 — github.com/CPHettiarachchi — portfolio-Chathura-Hettiarachchi
+About
+Passionate data science undergraduate with expertise in machine learning, natural language processing, and AI-driven
+solutions. Skilled in Python, R, SQL, and data visualization with hands-on experience in developing end-to-end data
+science projects. Proven leader with extensive experience in student governance, sports, media, and community service.
+Strong problem solver and quick learner with interests in data analytics, AI research, and software development.
+Education
+General Sir John Kotelawala Defence University2024 – 2027
+BSc in Applied Data Science Communication – Undergraduate (Final Year)
+Sri Lanka Institute of Information Technology (SLIIT)March 2023 – August 2023
+Certificate Program in IT Applications
+Dharmaraja College, Kandy 2009 – 2022
+•Advanced Level & Ordinary Level
+•Grade 5 Scholarship Examination
+Skills
+•Programming Languages:Python, R, SQL, HTML, CSS
+•Specializations:Machine Learning, Artificial Intelligence, Data Science, Natural Language Processing, Deep Learn-
+ing, Data Analytics, Statistical Analysis, Predictive Modeling
+•Web Development:Streamlit, Flask, HTML, CSS, Responsive Design
+•Data Visualization:Microsoft Power BI, Matplotlib, Seaborn, Plotly
+•Database Management:SQL, Microsoft SQL Server, Database Design, Query Optimization
+Tools
+Data Science & Analytics:Jupyter Notebook, Google Colab, Microsoft Power BI, Microsoft SQL Server, R Studio,
+LancsBox
+Machine Learning & AI Frameworks:TensorFlow, PyTorch, Scikit-Learn, EfficientNet, Keras
+Python Libraries:Pandas, NumPy, Matplotlib, Seaborn, NLTK, TextBlob, PuLP, Plotly, OpenCV
+Development Tools:Git, GitHub, VS Code, Streamlit, Microsoft Power Platform
+Creative & Productivity:Microsoft Office Suite (Excel, Word, PowerPoint)
+Languages
+English– FluentSinhala– Native
+Projects
+AI Career Agent view
+•AI-powered career guidance system providing personalized career recommendations and insights based on user skills,
+interests, and market trends (Python, Machine Learning, NLP, Streamlit)
+StyleAI Pro view
+•AI-driven fashion recommendation system providing personalized style suggestions using image analysis and deep
+learning models (Python, TensorFlow, Flask, HTML/CSS)
+CineMatch view
+•Movie recommendation system using collaborative filtering and content-based algorithms for personalized movie sug-
+gestions (Python, Scikit-learn, Pandas, Streamlit)
+EcoLens Waste Classification view
+•AI-powered waste classification system using deep learning and computer vision for automated smart recycling appli-
+cations (Python, PyTorch, EfficientNet-B3, OpenCV)
+Sri Lanka Sentiment Analyzer view
+•NLP-based sentiment analysis system for Sri Lankan public policy using Twitter data mining and text classification
+techniques (Python, NLTK, TextBlob, Twitter API)
+Smart Hospital Bed Allocation Systemview
+•AI-powered hospital resource optimization system for bed allocation and patient demand forecasting using linear
+programming (Python, PuLP, Scikit-learn, Pandas)
+UK Immigration Data Analysis view
+•Comprehensive statistical analysis of UK immigration trends and demographic patterns using data visualization tech-
+niques (SQL, Power BI, Excel)
+Canadian TFWP and IMP Programs Analysisview
+•In-depth statistical analysis of Canada’s Temporary Foreign Worker Program and International Mobility Programs
+(SQL, Power BI, Excel)
+Open Data Enquiries and Complaints Analysisview
+•Interactive dashboard analyzing public sector enquiries and complaints with advanced data visualization and insights
+(Power BI, DAX, Power Query, Excel)
+Olympic Games Analysis view
+•Historical Olympic data analysis exploring medal distribution trends, athlete performance metrics, and country statis-
+tics (SQL, Power BI, Excel)
+Leadership & Experience
+Member of College Board of Senior Prefects2021 – 2022
+Dharmaraja College, Kandy
+•Served on the senior leadership team responsible for school governance, student discipline, and administrative matters
+•Demonstrated exceptional leadership, accountability, and decision-making in managing school-wide initiatives
+•Collaborated with faculty and administration to enhance student welfare and academic excellence
+President of Media Unit 2021 – 2022
+Dharmaraja College, Kandy
+•Led the school media unit, overseeing all multimedia content production and broadcasting activities
+•Managed team of student journalists, news anchors, script editors, and technical crew for school events
+•Coordinated live coverage of sports events, cultural programs, and news broadcasts
+•Enhanced media operations through strategic planning and resource management
+Captain of Parackrama House 2021
+Dharmaraja College, Kandy
+•Led house activities, coordinated inter-house competitions across sports, academics, and cultural events
+•Developed strategic planning and team management skills through competitive activities
+•Fostered team spirit, unity, and healthy competition among house members
+Quartermaster, Council of Honour2021 – 2022
+1st Kandy Dharmaraja Scout Group
+•Managed scout equipment, supplies, inventory, and logistics for troop activities and camping expeditions
+•Demonstrated organizational excellence and resource management capabilities
+•Coordinated procurement and maintenance of scouting gear and camping equipment
+Coordinator of Multiple Student Organizations2021 – 2022
+Dharmaraja College, Kandy
+•Led 12+ organizations including First Aid Unit, Drug Prevention Unit, Nature Club, Paramitha Society, ICT Society,
+Robotics Club, Commerce & Economics Society, Drama Circle, Buddhist Students’ Association, and Travel Club
+•Developed strong multitasking, organizational, and leadership capabilities
+Sports Commentator 2016 – 2022
+Dharmaraja College, Kandy
+•Delivered live sports commentary for school sporting events, demonstrating strong communication and analytical skills
+News Anchor & Script Editor2016 – 2022
+Dharmaraja College, Kandy
+•Wrote, edited, and presented news segments while managing tight deadlines and maintaining broadcast standards
+Committee Member – Young Writers’ Society2019
+Dharmaraja College, Kandy
+•Contributed to creative writing initiatives and literary publications
+•Developed strong writing, editing, and creative communication skills from early years
+Committee Member – Debating Society2021 – 2022
+Dharmaraja College, Kandy
+•Participated in debate competitions and organized debating events
+•Enhanced critical thinking, argumentation, and public speaking capabilities
+Committee Member – Art Foundation2021 – 2022
+Dharmaraja College, Kandy
+•Supported art exhibitions, cultural events, and creative initiatives
+•Demonstrated appreciation for creativity and visual arts
+Sports Achievements
+•College Football Team (2016–2022)– Competed at district and provincial level tournaments
+•Under-14 Badminton Team (2015)– Participated in district level tournaments
+Honors & Awards
+•President Scout Award (2021)– Earned the highest rank in Sri Lankan Scouting through the 1st Kandy Dharmaraja
+Scout Group, demonstrating exceptional leadership, service excellence, outdoor skills, and community commitment
+•Member of College Board of Senior Prefects (2021–2022)– Placed 7th in the Top 10 Senior Prefects at
+Dharmaraja College, Kandy
+Strengths
+•Problem-solving & analytical thinking
+•Leadership & team management
+•Strategic planning & execution
+•Quick learner & adaptability
+•Strong communication skills
+•Public speaking & presentation
+•Project management & coordination
+•Creativity in coding & design
+•Time management & multitasking
+•Attention to detail & accuracy
+•Collaborative teamwork
+•Decision-making under pressure
+Other Qualifications
+•Completed Certificate Program in IT Applications from SLIIT University, Kandy branch
+•Hands-on experience with 10+ real-world data science and machine learning projects
+•Strong foundation in statistical analysis, predictive modeling, and data-driven decision making
+•Proficient in developing end-to-end AI solutions from data collection to model deployment
+•Experience in natural language processing, recommendation systems, optimization algorithms, and deep learning
+•Proven track record of leadership across 12+ student organizations and initiatives
+•6+ years of experience in sports commentary, news anchoring, and broadcast media
+•Active contributor to open-source projects on GitHub with a portfolio of diverse data science applications
+References
+Ms. Chamodhi Wickramasinghe
+Lecturer
+General Sir John Kotelawala Defence University
+wickramasinghe.bct@kdu.ac.lk
++94 71 361 2792
+Dr. Charith Silva
+Senior Lecturer
+General Sir John Kotelawala Defence University
+charithsilva@kdu.ac.lk
++44 79 2020 6338
